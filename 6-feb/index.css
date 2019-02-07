@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    background-color: #d3d3d32b;
+  
+}
+.container{
+    position: relative;
+    top: 7em;
+    background-color: white;
+    margin: 10px 50px;
+    height: 25em;
+    box-shadow: 2px 4px 10px 2px #d3d3d3ab;
+    border-radius: 1px;
+}
+.details-block{
+    display: inline;
+    position: absolute;
+    width: 70%;
+    padding-top: 10px;
+}
+.link-styles{
+    color: #56a9ee;
+    cursor: pointer;
+}
+.link-styles:hover{
+    text-decoration: underline;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+    background-color: #1bbd3640;
+    color: #1BBD36;
+    text-align: center;
+    line-height: 34px !important;
+    font-size: 19px;
+    border-radius: 5px;
+}
+.button1{
+    padding: 5px 25px;
+    text-align: center;
+    background-color: #1BBD36;
+    color: white;
+    font-size: 14px;
+    border-radius: 24px;
+    margin-top: 15px;
+    border: 1px solid #1BBD36;
+}
+.button2{
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #bd362fc4;
+    color: white;
+    font-size: 14px;
+    border-radius: 24px;
+    margin-top: 15px;
+    border: #bd362fc4;
+}
+.bookmark{
+    float: right;
+    color: gray;
+    font-size: 16px;
+    padding: 16px 20px 0 0;
+}
+.container li{
+    display: inline-block;
+    margin-right: 25px;
+    font-weight: 500;
+    color: gray;
+}
+.container ul{
+    list-style-type: none;
+    padding: 0;
+}
+.button3{
+    background-color: #3870ce;
+    border: 1px solid #3870ce;
+    color: white;
+    padding: 12px 55px;
+    font-size: 16px;
+    border-radius: 5px;
+}
