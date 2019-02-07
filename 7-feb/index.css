@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    background-color: #f0f1f6;
+}
+.container{
+    position: relative;
+    top: 2em;
+    margin: 10px 10px;
+}
+.cards-row{
+    display: flex;
+    margin-bottom: 18px;
+}
+.card{
+    width: 25%;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    border-radius: 10px;
+    padding: 20px 20px 13px 20px;
+    background-color: white;
+}
+.fa-newspaper-o{
+    width: 50px;
+    height: 50px;
+    background-color: #dbdeff;
+    color: #5e6dec;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 51px !important;
+    font-size: 22px !important;
+    position: relative;
+    bottom: 12px;
+}
+.fa-upload{
+    width: 50px;
+    height: 50px;
+    background-color: #ffdbe6;
+    color: #f9739c;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 51px !important;
+    font-size: 22px !important;
+    position: relative;
+    bottom: 12px;
+}
+.fa-user-o{
+    width: 50px;
+    height: 50px;
+    background-color: #dffaff;
+    color: #25cde8;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 51px !important;
+    font-size: 22px !important;
+    position: relative;
+    bottom: 12px;
+}
+.fa-arrow-circle-o-up{
+    width: 50px;
+    height: 50px;
+    background-color: #fff2d5;
+    color: #f1cb7a;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 51px !important;
+    font-size: 22px !important;
+    position: relative;
+    bottom: 12px;
+}
+.card-content{
+    display: inline-block;
+    width: 75%;
+    margin-left: 13px;
+}
+.container .card-content p,h1{
+    margin: 0;
+}
+.container .card-content p{
+    font-size: 13px;
+    color: #9a9191;
+}
+.section-two{
+    display: flex;
+}
+.table-1{
+    width: 46%;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    border-radius: 10px;
+    padding: 30px 20px 13px 20px;
+    background-color: white;
+}
+.section-two th{
+    text-align: left !important
+}
+.section-two table, td {
+    border-bottom: 1px solid lightgray;
+    border-collapse: collapse;
+  }
+  .section-two  td:nth-child(1) {
+    color: #42a5f5;
+    font-size: 15px;
+  }
+  .section-two td:nth-child(2)   {
+    color: #9a9191;
+    font-size: 13px;
+  }
+  .section-two td:nth-child(3) {
+    color: #9a9191;
+    font-size: 13px;
+  }
+  .section-two th, td {
+    padding: 12px 5px;
+  }
+  .section-two th {
+    text-align: left;
+  }
