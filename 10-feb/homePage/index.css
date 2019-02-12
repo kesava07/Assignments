@@ -22,6 +22,11 @@
     background-position: top;
     position: relative;
     }
+    .caption{
+        color: #f59935;
+        font-size: 22px;
+        font-weight: 600;
+    }
     .logo-box{
         position: absolute;
         top: 40px;
@@ -45,9 +50,8 @@
     }
     .heading-primary-main{
         display: block;
-        font-size: 60px;
-        font-weight: 400;
-        letter-spacing: 35px;
+        font-size: 50px;
+        font-weight: 500;
         animation:moveInLeft 2s ease-out
         /* animation-delay: 3s;
         animation-iteration-count: 3; */
@@ -94,18 +98,21 @@
     .btn:visited{
         text-transform: uppercase;
         text-decoration: none;
-        padding: 15px 40px;
+        padding: 10px 25px;
         display: inline-block;
-        border-radius: 100px;
+        border-radius: 10px;
         transition: all .2s;
         position: relative;
+        background-color: #f59935;
+        color: white;
+        border: 1px solid #f59935;
     }
     .btn:hover{
-        transform: translateY(-3px);
+        /* transform: translateY(-3px); */
         box-shadow: 0 10px 20px rgba(0,0,0,.2);
     }
     .btn:active{
-        transform: translateY(-1px);
+        /* transform: translateY(-1px); */
         box-shadow: 0 5px 10px rgba(0,0,0,.2);
     }
     .btn-white{

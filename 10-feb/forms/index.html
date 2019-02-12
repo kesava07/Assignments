@@ -14,6 +14,24 @@
 
 <body>
     <div class="container">
+        <div class="card-header">
+            <h1 style="margin:0">Agent Regestration
+            </h1>
+            <div>
+                <div class="tabs">
+                    <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> &nbsp;Personal Details</p>
+                </div>
+                <div class="tabs active">
+                    <p style="color:#64ddba"><i class="fa fa-check-circle-o" aria-hidden="true"></i> &nbsp;Agency Details</p>
+                </div>
+                <div class="tabs">
+                    <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> &nbsp;Contact Personal Deails</p>
+                </div>
+                <div class="tabs">
+                    <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> &nbsp;Work Order Scope</p>
+                </div>
+            </div>
+        </div>
         <div class="card-body">
             <h3>
                 Profile Information
@@ -46,8 +64,8 @@
                     <input type="email" name="agency-name" />
                     <label>Office Space<span class="text-danger">*</span></label>
                     <div class="radio-section">
-                            <input type="radio" class="radio-innput" name="gender" value="male" checked> Owned
-                            <input type="radio" class="radio-innput"  name="gender" value="female"> Rental
+                        <input type="radio" class="radio-innput" name="gender" value="male" checked> Owned
+                        <input type="radio" class="radio-innput" name="gender" value="female"> Rental
                     </div>
                 </div>
                 <div class="sections">
@@ -63,10 +81,14 @@
                             <input type="file" style="display: none;">
                         </label>
                         <span class="file">No file choosen</span>
-                </div>
+                    </div>
                 </div>
             </div>
-
+            <p class="terms">In order to process your regestration,we ask you to provide the following information.please note that all filelds are required..</p>
+            <div class="buttons" style="text-align:right">
+                <button class="cancel-button">Cancel</button>
+                <button class="continue-button">Continue</button>
+            </div>
         </div>
     </div>
 </body>
